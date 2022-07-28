@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.slider{
+    overflow: hidden;
+    position: relative;
+    height: 99vh;
+}
+
+.slider-inner{
+    position: relative;
+    height: 100%;
+}
+
+.partDiv{
+    height: 100%;
+    position: relative;
+    
+}
+
+.part{
+    background-size: cover;
+    background-repeat: no-repeat;
+    top:0;
+    bottom:0;
+    position: absolute;
+    height: 100%;
+    cursor: grab;
+}
+
